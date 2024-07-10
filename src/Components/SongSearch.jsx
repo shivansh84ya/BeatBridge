@@ -28,6 +28,7 @@ export default function SongSearch() {
     }, [])
 
     useEffect(() => {
+        console.log("thissssssss");
         getTracks();
     }, [])
 
